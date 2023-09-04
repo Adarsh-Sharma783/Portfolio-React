@@ -220,4 +220,4 @@ check it live: https://adarsh-sharma783.github.io/Portfolio-React/
 Made with ❤️ by Adarsh
 
 ## questions
-Feel free to reach out via email on [devduttadarsh6.com](mailto:devduttadarsh6@gmail.com) or [view some other projects](https://github.com/Adarsh-Sharma783).
+Feel free to reach out via email on [devduttadarsh6@gmail.com](mailto:devduttadarsh6@gmail.com) or [view some other projects](https://github.com/Adarsh-Sharma783).
