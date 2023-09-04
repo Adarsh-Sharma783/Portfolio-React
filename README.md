@@ -32,7 +32,7 @@ If you're feeling great and want to show your support, please consider checking 
 - [Contributions](#contribution)
 - [Licenses](#licenses)
 - [Questions](#questions)
-- [website link](https://for-timi.github.io/react-portfolio-web/) // Checkout the deployed website 
+- [website link](https://adarsh-sharma783.github.io/Portfolio-React/) // Checkout the deployed website 
     
         
 ## Installation
@@ -50,7 +50,7 @@ A responsive, single page application for developers to showcase their skills
 
 ## Customize Portfolio
 - ### Colors:
-  To customize the colors to the colors you want, CSS variables are used in the [index.css file](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/src/index.css). There you can update the variables to set your custom colors
+  To customize the colors to the colors you want, CSS variables are used in the [index.css file](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/index.css). There you can update the variables to set your custom colors
    - ### Background Color: <br>
       To set a new background color, update the `--color-bg` CSS variable and set your custom color in rbg, hex,hsl.
      ```
@@ -82,11 +82,11 @@ A responsive, single page application for developers to showcase their skills
       
 - ### Resume:
    To add your custom images to the project, do the following
-    - Navigate to the [assets folder](https://github.com/FOR-TIMI/react-portfolio-web/tree/main/src/assets).
+    - Navigate to the [assets folder](https://github.com/Adarsh-Sharma783/Portfolio-React/tree/main/src/assets).
     - rename, save your resume as `CV.pdf` and move it into the assets folder.
     
  
-    Note: If your resume is not in pdf format and you don't want to update it to PDF format, navigate to the [Call to action](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/src/components/Header/CTA.jsx) component and update the import statement to use your resume file 
+    Note: If your resume is not in pdf format and you don't want to update it to PDF format, navigate to the [Call to action](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Header/CTA.jsx) component and update the import statement to use your resume file 
     ```
     import CV from '../../assets/YOUR RESUME NAME' //update this line
      ```
@@ -94,9 +94,9 @@ A responsive, single page application for developers to showcase their skills
      and you should be good to go on your resume.
      
 - ### Social links: 
-     In terms of Social media links, I used the `Linkedin`, `Github` and `Codewars` links in the [Header section](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/src/components/Header/HeaderSocials.jsx).
+     In terms of Social media links, I used the `Linkedin`, `Github` and `Codewars` links in the [Header section](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Header/HeaderSocials.jsx).
      If you want to use your own `Linkedin`, `Github` and `Codewars` links, 
-     1. navigate to the [Header socials component](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/src/components/Header/HeaderSocials.jsx). 
+     1. navigate to the [Header socials component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Header/HeaderSocials.jsx). 
      2. update the href attributes for the three links <br><br>
       
      
@@ -117,19 +117,19 @@ A responsive, single page application for developers to showcase their skills
   with that, you can add and remove social media links and icons.
   
   - ### About me:
-    To customize the about me section, Navigate to the [about component](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/src/components/About/About.jsx)
+    To customize the about me section, Navigate to the [about component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/About/About.jsx)
     and then customize the `experience`, `collaborators` and `paragraph` as you see fit.
     
  - ### Experience: 
-   To Add your experience and tech stack to the experience section, Navigate to the [Experience Component](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/src/components/Experience/Experience.jsx) and update jsx how you see fit.
+   To Add your experience and tech stack to the experience section, Navigate to the [Experience Component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Experience/Experience.jsx) and update jsx how you see fit.
    
  - ### Services:
-  To update the services, navigate to the [Services Component](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/src/components/Services/Services.jsx)
+  To update the services, navigate to the [Services Component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Services/Services.jsx)
   and update your services as you see fit.
   
  - ### Portfolio:
-  To update the portfolio section to accomodate your own projects. First, navigate to the [Portoflio component](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/src/components/Portfolio/Portfolio.jsx) and then follow these steps; 
-   1. Import all Images of your projects to the [assets Folder](https://github.com/FOR-TIMI/react-portfolio-web/tree/main/src/assets)
+  To update the portfolio section to accomodate your own projects. First, navigate to the [Portoflio component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Portfolio/Portfolio.jsx) and then follow these steps; 
+   1. Import all Images of your projects to the [assets Folder](https://github.com/Adarsh-Sharma783/Portfolio-React/tree/main/src/assets)
    2. update the projects array to look like the following;
    
      const projects = [ 
@@ -146,9 +146,9 @@ A responsive, single page application for developers to showcase their skills
   After making these changes, your project should be rendered on the page just as usual.
       
  - ### Reviews
-  To update the reviews section, Navigate to the [Reviews Component](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/src/components/Review/Review.jsx).
+  To update the reviews section, Navigate to the [Reviews Component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Review/Review.jsx).
   In the reviews component, update the `reviewsData` array to fit your reviews. To customize the reviewsData array, follows these steps
-   1. upload the images for each reviewer and move them to your [assets folder](https://github.com/FOR-TIMI/react-portfolio-web/tree/main/src/assets).
+   1. upload the images for each reviewer and move them to your [assets folder](https://github.com/Adarsh-Sharma783/Portfolio-React/tree/main/src/assets).
    2. Once you've uploaded your images to the assets folder, import those images into the reviewData array;
       
     const reviewData = [
@@ -179,7 +179,7 @@ A responsive, single page application for developers to showcase their skills
  
  After customizing the website, you can deploy it to github pages for free by following these steps;<br>
  
-   - Navigate to the [package.json file](https://github.com/FOR-TIMI/react-portfolio-web/blob/main/package.json)
+   - Navigate to the [package.json file](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/package.json)
    - Update the `homepage` in the package.json file
     ```
      {
@@ -207,15 +207,7 @@ A responsive, single page application for developers to showcase their skills
 
 
 ## Screenshot
-- ![image](https://user-images.githubusercontent.com/104241247/209482825-d7faee08-cc82-4570-bed7-4bb0decf20e7.png)
-- ![image](https://user-images.githubusercontent.com/104241247/209482830-6c82850c-d49d-4197-9ec1-3f9b76a728f7.png)
-- ![image](https://user-images.githubusercontent.com/104241247/209482835-ac205640-914a-46f4-a17a-28f926925555.png)
-- ![image](https://user-images.githubusercontent.com/104241247/209482840-22a66001-d6e5-440c-9581-c432a36815cb.png)
-- ![image](https://user-images.githubusercontent.com/104241247/209482843-3159120a-aee1-44aa-aa64-20151b526de9.png)
-- ![image](https://user-images.githubusercontent.com/104241247/209482846-058e0c1b-cc2f-4c77-bebf-4b1c4994bff1.png)
-- ![image](https://user-images.githubusercontent.com/104241247/209482853-f029c4ae-e7f5-448a-a590-8046632f5ab3.png)
-- ![image](https://user-images.githubusercontent.com/104241247/209482862-c68c6184-7b2e-4282-b557-fe3cc6b9c810.png)
-
+check it live: https://adarsh-sharma783.github.io/Portfolio-React/
 
 
 
@@ -224,11 +216,8 @@ A responsive, single page application for developers to showcase their skills
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-## website
-https://timi.codes/
-
 ## Contribution
-Made with ❤️ by Timi
+Made with ❤️ by Adarsh
 
 ## questions
-Feel free to reach out via email on [femiladiranerife24@gmail.com](mailto:femiladiranerife24@gmail.com) or [view some other projects](https://github.com/FOR-TIMI/).
+Feel free to reach out via email on [devduttadarsh6.com](mailto:devduttadarsh6@gmail.com) or [view some other projects](https://github.com/Adarsh-Sharma783).
